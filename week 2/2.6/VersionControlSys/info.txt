@@ -1,0 +1,43 @@
+1. What is Git?
+Free and open source version control system
+
+  * what is version control system?
+    A system that keeps track of our files or projects.
+    It allows your to revert selected files to previous state, revert the entire project to a previous state, compare changes over time, see who last, modified something so that we can know what might be causing a problem, or what is the issue, who made it, and when with the details.
+
+2 types of VCS
+    centralized     decentralized
+Why Git
+  Free
+  Open source
+  Scalable
+  Super fast
+  Cheap branching and merging
+
+What is GitHub?
+GitHub ia a web-based hosting service for git repositories.
+You can use git without GitHub, but you cannot use GitHub without git.
+
+      Git                             GitHub
+  Used for version control            Used for hosting Git repositories
+  Installed locally on computer       Cloud based
+  Tracks changes made to a file       provides a web interface to view file changes
+
+local repositories
+Every VCS tool provides a private workplace as a working copy. Developers make changes in their private workplace and after commit, these changes become a part of the repository. Git takes it one step forward by providing them a private copy of the whole repository. Users can perform many operations with this repository such as add file, remove file, rename file,move file, commit changes, and many more.
+
+Working Directory and Staging Area of Index: An intermediate  area where commits  can be formatted  and reviewed before completing the commit.
+
+Push: send a change to another repository ( may require permission)
+
+Pull: grab a change from  repository
+
+Blobs
+Blob Stands for Binary Large Object. Each version of file is represented by blob. A blob holds the file data but does not contain any meta data about the file. It is a binary file, and in Git Database, it is named as SHA1 hash of that file. In Git, files are not addressed by names. Everything is content-addressed.
+
+Trees
+Tree is an object, which represents a Directory. It holds Blobs as well as other sub-directories. A tree is a binary file that stores references to blobs and trees which aer also named as SHA1 hash of the tree object.
+
+Git Commands
+Clone: Bring a repository hosted somewhere lile GitHub into folder or your local machine.
+Add: Track your files and changes

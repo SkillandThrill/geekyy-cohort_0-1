@@ -1,0 +1,36 @@
+#Harkirat100xdevs---
+Notes Week 0;
+
+foundation just installing basic softwares 
+Learned html and css basics
+created Zerodha Landing page with only html and css
+<!-- link  -->
+
+
+Notes Week 1;
+Orientation class.
+20-25 Hrs commitement 
+Start the GSoc at the END of the cohort
+Post about your progress, keep yourself updated and accountable. 
+Do Hard TODO's. 
+Then go for GSOC -- 
+Join Discord
+<!-- work related sites  -->
+1. upwork
+
+week 1
+JS foundation 
+Simple Primitives >>> Varivables (let,var,const), Data types(strings,numbers and booleans), conditionals(if-else), Loops (for) 
+complex primitives >>> Arrays and Objects
+-- Solved some assignments based on concepts.
+
+functions
+functions with arguments
+functions with callbacks
+practice with more examples
+
+<!-- Questions for Assignment -->
+1. Create a counter in Javascript (counts from 30 to 0)
+2. Calculate the time takes between a setTimeout call and the inner function actually running.
+3. create a Terminal Clock (HH:MM:SS)
+
