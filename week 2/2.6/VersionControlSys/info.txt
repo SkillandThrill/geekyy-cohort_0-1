@@ -43,3 +43,18 @@ Clone: Bring a repository hosted somewhere lile GitHub into folder or your local
 Add: Track your files and changes
 
 date == 12-05 TimeStamp23:38
+
+Branches
+learn about merge conflicts
+what is a merge conflict?
+
+A merge conflict is a situation that occurs when two or more branches of a version control system, such as git, have changes to the same part of the code or file, and these changes cannot be automatically merged together.This can happen when two or more Developers are working on different parts of the same project, and their changes conflict each other.
+
+
+git commands to resolve the conflicts
+* git log --merge : produce the list of commits that are causing the conflicts.
+* git diff : Identify the differences between the states repositories or files.
+* git checkout : Used to undo the changes made to the file, or for changing branches.
+* git reset --mixed : Used to undo changes to the working Directory and Staging area
+* git merge --abort : Helps in existing the merge process and returning back to the state before the merging began.
+* git reset : Used at the time of merge conflict to reset the conflicted files to their original state.
