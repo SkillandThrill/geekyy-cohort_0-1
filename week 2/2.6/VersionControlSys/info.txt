@@ -41,3 +41,5 @@ Tree is an object, which represents a Directory. It holds Blobs as well as other
 Git Commands
 Clone: Bring a repository hosted somewhere lile GitHub into folder or your local machine.
 Add: Track your files and changes
+
+date == 12-05 TimeStamp23:38
